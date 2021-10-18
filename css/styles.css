@@ -5,32 +5,31 @@ body {
 
 header {
   height: 48px;
-  max-width: 100%;
+  width: 428px;
   margin: 0 auto;
   background-color: #76e4eb;
 }
 
 .hero-banner {
-  max-width: 987px;
+  max-width: 428px;
   height: 420px;
   margin: 0 auto;
   background-color: #315fa4;
+  margin-bottom: 20px;
 }
 
 .container {
-  max-width: 987px;
+  width: 428px;
   height: 220px;
   margin: 0 auto;
-  margin-top: 20px;
 }
 
 .column {
-  width: 100%;
+  width: 428px;
   height: 220px;
   background-color: #ca1dcd;
-  display: block;
-  margin-top: 20px;
-  float: left;
+  margin-bottom: 20px;
+  margin: 0 auto;
 }
 
 .box1 {
@@ -43,11 +42,9 @@ header {
 
 footer {
   background-color: #c01887;
-  max-width: 100%;
+  width: 428px;
   height: 172px;
   margin: 0 auto;
-  margin-top: 20px;
-  clear: both;
 }
 
 @media screen and (min-width: 767px) {
